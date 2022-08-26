@@ -1,0 +1,277 @@
+/* main sett */
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  position: relative;
+}
+body {
+  font-family: 'Poppins', sans-serif
+}
+div {
+  background-color: #efefef;
+  min-height: 140px;
+  padding-top: 70px;
+  color: #333;
+}
+h2 {
+ text-align: center;
+ font-size: 1.5em;
+}
+/* main sett */
+
+.name {
+  background-color: #333;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  color: lightgray;
+  top: 0;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.name h2 {
+  margin-top: 8px;
+  letter-spacing: 2px;
+}
+.name h2 span {
+  color: white;
+}
+
+.social {
+  position: fixed;
+  height: 100px;
+  width: 10px;
+  top: 80px;
+  right: 0;
+  margin-right: 30px;
+}
+.social ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.social ul li a:link {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+.social ul li a:hover {
+  color: darkgray;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+.social ul li a:active {
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+.social ul li a:visited {
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  height: 672px;
+  width: 100%;
+  font-size: 0.6em;
+  align-items: center;
+  justify-content: center;
+  color: lightgray;
+  text-transform: uppercase;
+  line-height: 50px;
+  background-image: url('header-bg.jpg');
+  background-attachment: fixed;
+  background-position: 0 50px;
+}
+header h1 {
+  letter-spacing: 5px;
+}
+header h1 span {
+  color: white;
+  font-size: 1.8em;
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+  font-weight: 800;
+}
+
+.about {
+  padding-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about h2 {
+  margin-bottom: 50px;
+}
+.about p {
+  margin: 0 20px;
+  font-weight: 400;
+  width: 90%;
+}
+.about hr {
+  background-color: #3F5765;
+  width: 20px;
+  height: 0.5px;
+  border: none;
+  display: inline-block;
+  border-radius: 1px;
+}
+.about span {
+  background-color: white;
+  border: solid 2px white;
+  height: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+table {
+  margin-top: 20px;
+  width: 95%;
+}
+.about .contact {
+  width: 325px;
+}
+.about .contact td:nth-child(1) {
+  font-weight: 600;
+}
+.about .programming tr td hr {
+  min-width: 96%;
+  vertical-align: middle;
+  margin-left: 2%;
+  min-height: 2px;
+}
+.about .programming .language {
+  border-radius: 2px;
+  width: 100px;
+  text-align: right;
+  font-weight: 600;
+}
+.about .programming .level {
+  border-radius: 2px;
+  width: 0px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.quote {
+  background-image: url('quote-bg.jpg');
+  background-attachment: fixed;
+  background-position: 0 -120px;
+  color: whitesmoke;
+}
+.quote footer {
+  text-align: center;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.interest {
+  padding-bottom: 60px;
+}
+.interest .image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.interest .image p {
+  margin: 0 1%;
+  color: whitesmoke;
+}
+.interest .image em {
+  background-color: #3F5765;
+  display: inline-block;
+  min-width: 90px;
+  border: solid 2px #3F5765;
+  border-radius: 50px;
+  text-align: center;
+}
+.interest img {
+  height: 200px;
+  width: 250px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.goals {
+  color: whitesmoke;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+  line-height: 50px;
+  background-image: url('goal-bg.jpg');
+  background-attachment: fixed;
+  background-position: 0 -20px;
+}
+.goals h2 span {
+  font-weight: 200;
+}
+
+.education {
+  height: 300px;
+  padding-bottom: 880px;
+}
+.education .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.education aside {
+  border: solid 1px lightgray;
+  width: 470px;
+  margin: 5px;
+  background-color: whitesmoke;
+  border-radius: 2px;
+  line-height: 25px;
+}
+.education aside h4, p {
+  margin: 20px;
+}
+.education aside p {
+  font-weight: 400;
+}
+.education aside p span {
+  background-color: #3F5765;
+  border: solid 5px #3F5765;
+  border-radius: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.copyright {
+  background-color: #333;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+/* responsive */
+@media (min-width: 720px) {
+  .name h2 {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .goals {
+    display: flex;
+    padding-bottom: 50px;
+  }
+  
+  .interest .image {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .interest .image img {
+    height: 200px;
+    width: 300px;
+    margin: 2px;
+  }
+  
+  .interest .image p {
+    display: none;
+  }
+}
+/* responsive */
